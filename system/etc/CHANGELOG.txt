@@ -1,0 +1,114 @@
+Rom: Bionx
+Builds: Nx Builds
+Version: Catalyst 3.X.X
+Android 4.1.2
+
+============
+Changelog
+V3.0.0
+-Preping For Kexec
+-Updated Hosts
+-Removed CPU Modules and tweaks (Lets start fresh for Kexec!)
+-Tweaked Liberty.cfg
+-Tweaked Liverty.bsh
+-New Moto-Xp Theme
+-Changed ro.build.user To dev (For development and Adv settings purposes)
+-Enabled Dreams In Framework
+
+V3.0
+-Updated Base To .16 Moto Framework
+-Updated All Xperia Libs
+-Updated Xperia Walkman Player (Latest Xperia Software)
+-Updated Sony Xloud Lib/Integration
+-Updated Services.jar (Freed up more memory)
+-Heavily Modified Android-Policy.jar
+-New AOSP Lockscreen (Lets make it simple? based off of AOSP Galaxy Mod)
+-New Xperia Plugins
+-Updated Build.prop
+-Latest Bionx Framework Software
+-Added bootsnd.sh to bin (Allow bootable sound to users? Initiate in terminal)
+-Ported Original System UI
+-Ported Android 4.3 Google Camera
+-Sunbeam Livewallpaper
+-Tweaked Init.d (Either combine scripts or eliminate ones we dont need or make toggleable with Bionx Dashboard)
+-Tweaked Vendor folder for ClearxAudio mod
+
+V2.0.1
+-Updated Bionx Home Selector (Holo Themed)
+-Removed Talk (Download Hangouts from Google Play)
+-Updated Bionx Dashboard to 3.1
+-Aosp MMS swapped for Jelly Bean Sense 4.0 Blue style No Avatar (New Style 7-17) by: Schoat333 @Rootzwiki
+-Init.d engine tweaked
+-New Bootanimation (Edit bootsound by replacing boot_sound.mp3 in /system/media)
+
+V2.0
+-Bionx Dashboard V3.0 (View the Changelog for changes, will be added to google play for ota updates for toolbox upgrades/ Where most the magic happened.)
+-JB Statusbar completely redone (Fixed Media crash bug? Added Network monitor, tweaked center clock appearance and reaction to notifications, swapped statusbar time for digital clock widget in expanded statusbar, updated layouts and xml.)
+-AOSP Compiled/tweaked Android JB MMS with quick message (Testing?)
+-Removed all Stock Xperia Z Launcher Settings and Tools. Swapped for ra3al's Custom Xperia Z Launcher and Tools. (Highly customizeable and themeable)
+-Debloated system of VWZ bloatware
+-Swapped VWZ Car Dock for Sony Car Dock
+-Highly Modified Framework (Home Brew tweaks ;))
+-Integrated Android Seeder runtime
+-Updated Adobe Flash Installer
+-Manually updated Google Play Store
+-Integrated changes of latest Moto JB Firmware in Leak Base
+-Tweaked Build.prop
+-Updated Sony Libs
+-Updated Notifications
+-Xperia Z Bootanimation
+-Updated Init.d Scripts
+-Less Virtual Memory usage
+
+V1.1
+Fixed CPU Overclock issue (1.2GHZ Now Available)
+Added Google Now (Forgot :3)
+Added Google Voice Search
+System UI Slider Toggles port by Judaxxx
+Patched  Up System UI
+Bionx Dashboard Updated to V2.5
+Added Microbes LWP
+Reformated System (Cleaned up)
+Added Super SU
+
+V1.0.1
+Fixed Init.d Initialization?
+Fixed Mounting Scripts?
+Patched sysc Script
+Optimized Init.d Folder in /System/Ect (Original Files from Nx)
+Patched Android Settings
+Updated Xperia Framework and Libs
+Updated Xperia Launcher (Auto Rotation and Widget Support)
+Added Xperia Tools and Widgets
+Deleted SemcMetaDataCleanup
+Patched Build.prop 
+Patched Installer Script
+Patched Framework-res
+Deleted ICS Transparent MMS
+Jellybean Transparent MMS (MrDSL)
+Patched Phone.apk
+"Need to finish Theme!!...It can wait...:)"
+
+V1.0
+Android 4.1.2 Base
+Moto 98.72.X912 Firmware
+DD Day! (Debloat and Demolish)
+Zipaligned
+Debloated
+Deoxidized
+Android Settings Tweaked
+Android Settings themed
+Build.prop tweaked
+Framework tweaked
+init.d support
+Bionx Atire added
+Bionx Dashboard V2.0
+DSP managment
+Xperia Z launcher
+Sense Sky Blue Theme
+Droid DNA Boot animation
+1% Battery Increments
+Inverted Gapps
+Xperia Framework Integrated
+Sony Audio Integrated
+OTA Updater Integrated

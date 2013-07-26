@@ -1,0 +1,16 @@
+#!/system/bin/sh
+
+. /system/etc/liberty.cfg
+
+if busybox [ $RGDN_AT_BOOT -eq 1 ]; then
+
+# Mount Partitions
+busybox mount -o remount,ro / 2>/dev/null
+busybox mount -o remount,ro rootfs 2>/dev/null
+busybox mount -o remount,ro /system 2>/dev/null
+busybox mount -o remount,ro `busybox mount | grep system | awk '{print $1,$3}' | sed -n 1p` 2>/dev/null
+busybox mount -o remount,rw -t auto /system;
+busybox mount -o remount,rw -t auto /data;
+
+# Run Entropy generator Mod
+rngd

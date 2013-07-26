@@ -1,0 +1,12 @@
+#!/system/bin/sh
+
+. /system/etc/liberty.cfg
+
+if busybox [ $CACHE_AT_BOOT -eq 1 ]; then
+
+if [ ! -d /cache/dalvik-cache ]
+then
+mkdir /cache/dalvik-cache
+fi
+mount -o bind /cache/dalvik-cache/ /data/dalvik-cache
+

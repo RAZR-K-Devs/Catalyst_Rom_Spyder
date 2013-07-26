@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+. /system/etc/liberty.cfg
+
+if busybox [ $FREE_TETHER_AT_BOOT -eq 1 ]; then
+
+mount -o rw,remount /data
+sqlite3 /data/data/com.motorola.android.providers.settings/databases/settings.db 'UPDATE settings SET value=0 WHERE name="entitlement_check";'

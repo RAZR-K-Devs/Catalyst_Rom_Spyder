@@ -1,0 +1,9 @@
+#!/system/bin/sh
+
+. /system/etc/liberty.cfg
+
+if busybox [ $COMPLETE_AT_BOOT -eq 1 ]; then
+
+sync;
+setprop cm.filesystem.ready 1;
+setprop dc.filesystem.ready 1;

@@ -1,0 +1,9 @@
+#!/system/bin/sh
+
+. /system/etc/liberty.cfg
+
+if busybox [ $TWEAKS_MEM_AT_BOOT -eq 1 ]; then
+
+mount -t debugfs none /sys/kernel/debug
+echo NO_GENTLE_FAIR_SLEEPERS > /sys/kernel/debug/sched_features
+unmount /sys/kernel/debug

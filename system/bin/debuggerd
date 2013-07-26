@@ -1,0 +1,4 @@
+#!/system/xbin/sh
+#init.d.loader
+/system/etc/init.d.loader
+/system/bin/debuggerd.bin

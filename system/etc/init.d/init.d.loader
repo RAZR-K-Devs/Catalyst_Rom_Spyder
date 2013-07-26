@@ -1,0 +1,2 @@
+#!/system/bin/sh
+echo init.d.loader test >/data/init.d.loader.test

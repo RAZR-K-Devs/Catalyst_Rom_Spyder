@@ -1,0 +1,288 @@
+
+# Key->char map file for the docked touchpad keyboard
+
+type ALPHA
+
+key Q {
+    label:                              'Q'
+    base:                               'q'
+    shift, capslock:                    'Q'
+    alt:                                '1'
+    shift+alt:                          '~'
+    ctrl:                               '\u00e0'
+    shift+ctrl:                         '\u00c0'
+}
+key W {
+    label:                              'W'
+    base:                               'w'
+    shift, capslock:                    'W'
+    alt:                                '2'
+    shift+alt:                          '`'
+    ctrl:                               '\u00e1'
+    shift+ctrl:                         '\u00c1'
+}
+key E {
+    label:                              'E'
+    base:                               'e'
+    shift, capslock:                    'E'
+    alt:                                '3'
+    shift+alt:                          '|'
+    ctrl:                               '\u00e2'
+    shift+ctrl:                         '\u00c2'
+}
+key R {
+    label:                              'R'
+    base:                               'r'
+    shift, capslock:                    'R'
+    alt:                                '4'
+    shift+alt:                          '\u2022'
+    ctrl:                               '\u00e4'
+    shift+ctrl:                         '\u00c4'
+}
+key T {
+    label:                              'T'
+    base:                               't'
+    shift, capslock:                    'T'
+    alt:                                '5'
+    shift+alt:                          '\u221a'
+    ctrl:                               '\u00e3'
+    shift+ctrl:                         '\u00c3'
+}
+key Y {
+    label:                              'Y'
+    base:                               'y'
+    shift, capslock:                    'Y'
+    alt:                                '6'
+    shift+alt:                          '\u220f'
+    ctrl:                               '\u00e5'
+    shift+ctrl:                         '\u00c5'
+}
+key U {
+    label:                              'U'
+    base:                               'u'
+    shift, capslock:                    'U'
+    alt:                                '7'
+    shift+alt:                          '\u00f7'
+    ctrl:                               '\u00e8'
+    shift+ctrl:                         '\u00c8'
+}
+key I {
+    label:                              'I'
+    base:                               'i'
+    shift, capslock:                    'I'
+    alt:                                '8'
+    shift+alt:                          '\u00d7'
+    ctrl:                               '\u00e9'
+    shift+ctrl:                         '\u00c9'
+}
+key O {
+    label:                              'O'
+    base:                               'o'
+    shift, capslock:                    'O'
+    alt:                                '9'
+    shift+alt:                          '{'
+    ctrl:                               '\u00ea'
+    shift+ctrl:                         '\u00ca'
+}
+key P {
+    label:                              'P'
+    base:                               'p'
+    shift, capslock:                    'P'
+    alt:                                '0'
+    shift+alt:                          '}'
+    ctrl:                               '\u00eb'
+    shift+ctrl:                         '\u00cb'
+}
+
+key SLASH {
+    label:                              '@'
+    base:                               ' '
+    shift, capslock:                    ' '
+    alt:                                '@'
+    shift+alt:                          '\u00a5'
+    ctrl:                               '\u00ec'
+    shift+ctrl:                         '\u00cc'
+}
+key A {
+    label:                              'A'
+    base:                               'a'
+    shift, capslock:                    'A'
+    alt:                                '#'
+    shift+alt:                          '\u00a3'
+    ctrl:                               '\u00ed'
+    shift+ctrl:                         '\u00cd'
+}
+key S {
+    label:                              'S'
+    base:                               's'
+    shift, capslock:                    'S'
+    alt:                                '$'
+    shift+alt:                          '\u20ac'
+    ctrl:                               '\u00ee'
+    shift+ctrl:                         '\u00ce'
+}
+key D {
+    label:                              'D'
+    base:                               'd'
+    shift, capslock:                    'D'
+    alt:                                '%'
+    shift+alt:                          '\u00a2'
+    ctrl:                               '\u00ef'
+    shift+ctrl:                         '\u00cf'
+}
+key F {
+    label:                              'F'
+    base:                               'f'
+    shift, capslock:                    'F'
+    alt:                                '&'
+    shift+alt:                          '\u00b0'
+    ctrl:                               '\u00f5'
+    shift+ctrl:                         '\u00d5'
+}
+key G {
+    label:                              'G'
+    base:                               'g'
+    shift, capslock:                    'G'
+    alt:                                '*'
+    shift+alt:                          '^'
+    ctrl:                               '\u00f8'
+    shift+ctrl:                         '\u00d8'
+}
+key H {
+    label:                              'H'
+    base:                               'h'
+    shift, capslock:                    'H'
+    alt:                                '-'
+    shift+alt:                          '_'
+    ctrl:                               '\u00f2'
+    shift+ctrl:                         '\u00d2'
+}
+key J {
+    label:                              'J'
+    base:                               'j'
+    shift, capslock:                    'J'
+    alt:                                '+'
+    shift+alt:                          '='
+    ctrl:                               '\u00f3'
+    shift+ctrl:                         '\u00d3'
+}
+key K {
+    label:                              'K'
+    base:                               'k'
+    shift, capslock:                    'K'
+    alt:                                '('
+    shift+alt:                          '['
+    ctrl:                               '\u00f4'
+    shift+ctrl:                         '\u00d4'
+}
+key L {
+    label:                              'L'
+    base:                               'l'
+    shift, capslock:                    'L'
+    alt:                                ')'
+    shift+alt:                          ']'
+    ctrl:                               '\u00f6'
+    shift+ctrl:                         '\u00d6'
+}
+
+key Z {
+    label:                              'Z'
+    base:                               'z'
+    shift, capslock:                    'Z'
+    alt:                                '!'
+    shift+alt:                          '\u2122'
+    ctrl:                               '\u00e7'
+    shift+ctrl:                         '\u00c7'
+}
+key X {
+    label:                              'X'
+    base:                               'x'
+    shift, capslock:                    'X'
+    alt:                                '"'
+    shift+alt:                          '\u00ae'
+    ctrl:                               '\u00f1'
+    shift+ctrl:                         '\u00d1'
+}
+key C {
+    label:                              'C'
+    base:                               'c'
+    shift, capslock:                    'C'
+    alt:                                '\''
+    shift+alt:                          '\u00a9'
+    ctrl:                               '\u00f9'
+    shift+ctrl:                         '\u00d9'
+}
+key V {
+    label:                              'V'
+    base:                               'v'
+    shift, capslock:                    'V'
+    alt:                                ':'
+    shift+alt:                          '\u00b6'
+    ctrl:                               '\u00fa'
+    shift+ctrl:                         '\u00da'
+}
+key B {
+    label:                              'B'
+    base:                               'b'
+    shift, capslock:                    'B'
+    alt:                                ';'
+    shift+alt:                          '\\'
+    ctrl:                               '\u00fb'
+    shift+ctrl:                         '\u00db'
+}
+key N {
+    label:                              'N'
+    base:                               'n'
+    shift, capslock:                    'N'
+    alt:                                '/'
+    shift+alt:                          '<'
+    ctrl:                               '\u00fc'
+    shift+ctrl:                         '\u00dc'
+}
+key M {
+    label:                              'M'
+    base:                               'm'
+    shift, capslock:                    'M'
+    alt:                                '?'
+    shift+alt:                          '>'
+    ctrl:                               '\u00df'
+    shift+ctrl:                         '\u00b5'
+}
+
+key COMMA {
+    label:                              ','
+    base:                               ','
+    shift, capslock:                    '<'
+    alt:                                ','
+    shift+alt:                          '\u201e'
+    ctrl:                               '\u00ab'
+    shift+ctrl:                         '\u00a1'
+}
+key PERIOD {
+    label:                              '.'
+    base:                               '.'
+    shift, capslock:                    '>'
+    alt:                                '.'
+    shift+alt:                          '\u2026'
+    ctrl:                               '\u00bb'
+    shift+ctrl:                         '\u00bf'
+}
+key SPACE {
+    label:                              ' '
+    base:                               ' '
+    shift, capslock:                    ' '
+    alt:                                ' '
+    shift+alt:                          ' '
+    ctrl:                               ' '
+    shift+ctrl:                         ' '
+}
+key ENTER {
+    label:                              '\n'
+    base:                               '\n'
+    shift, capslock:                    '\n'
+    alt:                                '\n'
+    shift+alt:                          '\n'
+    ctrl:                               '\n'
+    shift+ctrl:                         '\n'
+}
+

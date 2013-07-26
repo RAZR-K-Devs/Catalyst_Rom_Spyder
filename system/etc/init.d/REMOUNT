@@ -1,0 +1,10 @@
+#!/system/bin/sh
+#Partition mounts by Dsexton702
+
+. /system/etc/liberty.cfg
+
+if busybox [ $REMOUNT_AT_BOOT -eq 1 ]; then
+
+mount -o remount,noatime,auto_da_alloc,barrier=0 /system /system
+mount -o remount,noatime,auto_da_alloc,barrier=0 /cache /cache
+mount -o remount,noatime,delalloc,noauto_da_alloc,barrier=1 /data /data

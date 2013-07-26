@@ -1,0 +1,4 @@
+post-build=motorola/XT912_verizon/cdma_spyder:4.1.2/9.8.2O-72_VZW-8/26:user/release-keys
+post-timestamp=1355227028
+pre-build=verizon/spyder_vzw/cdma_spyder:2.3.6/6.5.1-167_DHD-14_M3-8/120308:user/release-keys
+pre-device=cdma_spyder
