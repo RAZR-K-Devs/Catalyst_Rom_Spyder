@@ -5,6 +5,14 @@ Android 4.1.2
 
 ============
 Changelog
+V3.0.1
+-Kexec Kernal Is Now Otional
+-Added Sense 5 Notifications Sounds (Taken from my ONE, Converted from mp3 to ogg)
+-Razr I Camera Ported (Android 4.3 Camera failed trial)
+-Deleted BasicDreams.apk (Thought it was part of Screen Candy Easter Egg)
+-Fixed AudioEffectsService.apk (Edited AudioEffects xml and Fixed Media Routing Playback, ClearX Audio still toggleable but Equalizer was removed)
+-Cleaned Up Xperia Audio Framework
+
 V3.0.0
 -Preping For Kexec
 -Updated Hosts
